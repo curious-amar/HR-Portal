@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>WebApllicationVcube</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>editCourseController</display-name>
+    <servlet-name>editCourseController</servlet-name>
+    <servlet-class>com.Controller.editCourseController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editCourseController</servlet-name>
+    <url-pattern>/editCourseController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StudentUpdateController</display-name>
+    <servlet-name>StudentUpdateController</servlet-name>
+    <servlet-class>com.Controller.StudentUpdateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentUpdateController</servlet-name>
+    <url-pattern>/StudentUpdateController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>editCourseController01</display-name>
+    <servlet-name>editCourseController01</servlet-name>
+    <servlet-class>com.Controller.editCourseController01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editCourseController01</servlet-name>
+    <url-pattern>/editCourseController01</url-pattern>
+  </servlet-mapping>
+</web-app>
